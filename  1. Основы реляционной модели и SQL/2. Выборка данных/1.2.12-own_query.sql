@@ -1,4 +1,4 @@
 SELECT title, author, price * amount
 FROM   book
-WHERE  title LIKE ('Булгаков')
+WHERE  author LIKE ('Булгаков%')
 ORDER BY price * amount;
